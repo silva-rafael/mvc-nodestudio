@@ -4,10 +4,8 @@ class Home extends \App\Core\Controller {
 
     public function index() {
         $user = $this->model('user');
-        $user->nome = 'Rafael';
-        $user->email = 'rafael@rafael';
+        $user->nome = 'Gisele';
 
-        echo $user->nome. '<br />';
-        echo $user->email;
+        $this->view('home/index', $data = ['nome' => $user->nome]);
     }
 }
