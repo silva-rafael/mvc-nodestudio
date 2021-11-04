@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-nav navbar-expand-lg navbar-dark bg-dark"
+        <nav class="navbar navbar-nav navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/home">Inicio</a>
